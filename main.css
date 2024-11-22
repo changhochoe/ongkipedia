@@ -105,6 +105,9 @@ header{
     height: 70px;
     align-items: center;
 }
+.top_container_document{
+    display: flex;
+}
 .popup{
     position: fixed;
     top: 50%;
@@ -148,4 +151,10 @@ header{
 }
 .top_content_right_blank{
     align-items: center;
+}
+.top_content_right_search{
+    margin-left: 20px;
+}
+.middle_container_out{
+    background-color:hsl(0, 9%, 91%) ;
 }
