@@ -9,10 +9,10 @@
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="popup.css">
 </head>
-<body style="background-color: rgb(205, 204, 204);"">
-    <header style="background-color: rgb(205, 204, 204);">
-        <div class="top_container"> <!--상단 바 콘테이너-->
-            <div class="top_content_logo" style="display: flex;align-items: center;">
+<body>
+    <header>
+        <div class="top_container">
+            <div class="top_content_logo">
                 <a href="index.html">
                     <img src="logo2.png" alt="로고" height="60px">
                 </a>
@@ -20,14 +20,14 @@
                     옹키피디아 : 옹충이들의 추억보관소
                 </div>
             </div>
-            <div class="top_content_right" style="justify-content: space-around; display: flex; align-items: center;" >
+            <div class="top_content_right">
                 <div class="top_content_right_search">
                     <input type="text" 
                     style="width: 270px; height: 40px;border: solid, grey, 2px ; border-radius: 3px; font-size: 18px;"
                     placeholder="여기에서 검색">
                 </div>
                 <div style="width: 20px;"></div>
-                <div class="top_content_right_blank" style="align-items: center;">
+                <div class="top_content_right_blank">
                     <img src="profile.img.webp" alt="회원가입" 
                     style="height: 50px; border: solid, rgb(205, 204, 204),2px;border-radius: 3px;"
                     onclick="document.getElementById('popup_shii').style.display = 'block';">
@@ -106,7 +106,7 @@
         <div class="close_button" onclick="document.getElementById('popup_shii').style.display = 'none';">
             x
         </div>
-        <div class="id_input" style="margin-top: 40px;">
+        <div class="id_input">
             <input type="text" placeholder="아이디" style="width: 200px; height: 36px;">
         </div>
         <div class="pw_input">

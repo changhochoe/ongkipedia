@@ -2,6 +2,12 @@
     display: flex;
     height: 30px;
 }
+body{
+    background-color: rgb(205, 204, 204);
+}
+header{
+    background-color: rgb(205, 204, 204)
+}
 .upleft{
     flex-direction: column;
     display: flex;
@@ -116,6 +122,7 @@
 }
 .id_input{
     margin-left: 155px;
+    margin-top: 40px;
 }
 .pw_input{
     margin-left: 155px;
@@ -129,4 +136,16 @@
     width: 300px;
     height: 400px;
     background-color: white;
+}
+.top_content_logo{
+    display: flex;
+    align-items: center;
+}
+.top_content_right{
+    justify-content: space-around; 
+    display: flex; 
+    align-items: center;
+}
+.top_content_right_blank{
+    align-items: center;
 }
