@@ -22,8 +22,42 @@
     padding: 5px;
     font-size: 20px;
 }
+/* 새문서 작성 html 부분의 가운데 클래스를 모았음 */
+/* 자 가운데 비율은 너비값이 고정되고  */
+
+.edit_outer_container{
+    display: flex;
+    justify-content: center;
+}
+.edit_middle_container{
+    display: flex;
+    width: 800px;
+    height: 600px;
+    background-color:hsl(0, 9%, 91%);
+    justify-content: space-evenly;
+    padding: 20px;
+    border-radius: 4px;
+}
+/* 인풋(문서 제목 작성) 크기 조절 */
 .input_title{
     height:7vh;
     width: 50vh;
     font-size: 2.3vh;
+}
+/* 셀렉트(문서 분류) 크기*/
+.select{
+    width: 200px;
+    height: 55px;
+}
+/* 목차 수 인풋 */
+.input_index{
+    width: 80px;
+    height: 50px;
+}
+
+.edit_submit_file{
+    display: flex;
+}
+.edit_middle_content{
+    display: flex;
 }
