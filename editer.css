@@ -29,11 +29,14 @@
     display: flex;
     justify-content: center;
 }
+.background-gray{
+    width: 800px;
+    min-height: 800px;
+    background-color:hsl(0, 9%, 91%);
+}
+
 .edit_middle_container{
     display: flex;
-    width: 800px;
-    height: 600px;
-    background-color:hsl(0, 9%, 91%);
     justify-content: space-evenly;
     padding: 20px;
     border-radius: 4px;
@@ -52,7 +55,7 @@
 /* 목차 수 인풋 */
 .input_index{
     width: 80px;
-    height: 50px;
+    height: 27px;
 }
 
 .edit_submit_file{
@@ -60,4 +63,54 @@
 }
 .edit_middle_content{
     display: flex;
+}
+
+/* 본문 작성 */
+
+.doc_content_out{
+    display: none;
+    width: 800px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.doc_content_top{
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.doc_index_title{
+    display: flex;
+    width: 380px;
+    height: 80px;
+    font-size: larger;
+}
+
+.index_choose{
+    display: flex;
+    width: 170px;
+    height: 80px;
+}
+
+.doc_content{
+    display: flex;
+    margin-top: 20px;
+}
+
+.doc_input{
+    width: 600px;
+    min-height: 500px;
+    font-size: medium;
+    padding: 2px;
+    resize: none;
+    
+}
+
+.selecting_out{
+    display: flex;
+    flex-direction: column;
+
 }
