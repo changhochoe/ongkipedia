@@ -20,6 +20,8 @@ document.getElementById('background').addEventListener('mouseenter',()=>{
 })
 
 document.getElementById('background').addEventListener('mouseleave',()=>{
+    document.getElementById('greet').style.visibility = 'hidden';
+    document.getElementById('greet').style.opacity = 0;
     let idList =['background','hole1','hole2','hole3','hole4','hole5']
     for(i of idList){
         document.getElementById(i).style.backgroundColor = 'white'

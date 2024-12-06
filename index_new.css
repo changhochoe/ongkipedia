@@ -8,7 +8,7 @@ body{background-color: black;}
     justify-content: space-between;
     width: 330px;
     height: 330px;
-    background-color: white;
+    background-color: black;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -30,7 +30,7 @@ body{background-color: black;}
     display: flex;
     width: 70px;
     height: 71px;
-    background-color: white;
+    background-color: black;
     border-radius: 50%;
     transition: background-color 3s ease;
     justify-content: center;
@@ -48,14 +48,14 @@ body{background-color: black;}
 .blank_left{
     width: 40px;
     height: 60px;
-    background-color: white;
+    background-color: black;
     transition: background-color 3s ease;
 
 }
 .blank_right{
     width: 40px;
     height: 60px;
-    background-color: white;
+    background-color: black;
     transition: background-color 3s ease;
 }
 .greetings{
