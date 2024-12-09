@@ -172,3 +172,21 @@ header{
     z-index: 1000px;
     position: absolute;
 }
+
+/* 문서 파트 */
+
+.center{
+    justify-self: center;
+    align-self: center;
+    padding: 1vh;
+    width: 100vh;
+    height: 120vh;
+    background-color: hsl(0, 9%, 91%);
+}
+
+.center_in{
+    justify-self: center;
+    width: 95vh;
+    height: 110vh;
+    background-color: white;
+}
